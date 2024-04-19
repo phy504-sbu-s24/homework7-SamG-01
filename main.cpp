@@ -1,4 +1,4 @@
-#include "integration_output.h"
+#include "output_file.h"
 
 #include <cmath>
 
