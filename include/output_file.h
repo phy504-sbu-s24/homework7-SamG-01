@@ -13,7 +13,7 @@ void integral_csv(std::function<double(double)> f, double a, double b, std::stri
     
     // open csv file
     std::ofstream csv;
-    csv.open(filename + ".csv");
+    csv.open("../data/" + filename + ".csv");
 
     // column labels
     csv << "N,trapezoid,monte carlo";
